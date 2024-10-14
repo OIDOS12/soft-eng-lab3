@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/SoftwareEngineering/Lab3/src</OriginalElement>
+  <nodes>
+    <node x="-352.07338095238094" y="92.08476190476189">Proxy.Image</node>
+    <node x="-622.2542857142857" y="283.18095238095236">Proxy.ProxyImage</node>
+    <node x="-337.57338095238094" y="564.1785714285716">Proxy.Main</node>
+    <node x="-154.60919540229884" y="283.18095238095236">Proxy.RealImage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Proxy.Main" target="Proxy.RealImage" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="-58.10919540229884" y="608.1785714285716" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="Proxy.Main" target="Proxy.ProxyImage" relationship="CREATE">
+      <point x="-81.67039299397914" y="0.07334428024068984" />
+      <point x="-475.75428571428574" y="608.2519157088122" />
+      <point x="-475.75428571428574" y="419.9230706075533" />
+      <point x="-474.8582375478927" y="419.9230706075533" />
+      <point x="0.8960481663930295" y="41.96272577996717" />
+    </edge>
+    <edge source="Proxy.ProxyImage" target="Proxy.Image" relationship="REALIZATION">
+      <point x="2.8571428572377044E-4" y="-43.99995238095238" />
+      <point x="-475.754" y="220.0" />
+      <point x="-255.57299999999998" y="220.0" />
+      <point x="3.8095238096502726E-4" y="31.500238095238117" />
+    </edge>
+    <edge source="Proxy.ProxyImage" target="Proxy.RealImage" relationship="TO_ONE">
+      <point x="146.5" y="0.0" />
+      <point x="-96.5" y="0.0" />
+    </edge>
+    <edge source="Proxy.RealImage" target="Proxy.Image" relationship="REALIZATION">
+      <point x="0.0" y="-43.99995238095238" />
+      <point x="-58.10919540229884" y="220.0" />
+      <point x="-255.57299999999998" y="220.0" />
+      <point x="3.8095238096502726E-4" y="31.500238095238117" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7187607573149741" showDependencies="true" x="-284.0967432950191" y="373.125" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
